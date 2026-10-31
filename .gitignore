@@ -1,0 +1,14 @@
+# LTspice generated simulation output
+*.raw
+*.log
+*.net
+*.op.raw
+*.fft
+*.wav
+*.bak
+*.tmp
+
+# Local OS/editor artifacts
+.DS_Store
+Thumbs.db
+*~

@@ -1,0 +1,31 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 16 -5 -16 -5
+LINE Normal 0 3 0 -5
+LINE Normal -9 3 0 3
+LINE Normal -9 9 -9 3
+LINE Normal 11 9 -9 9
+LINE Normal 11 15 11 9
+LINE Normal -9 15 11 15
+LINE Normal -9 21 -9 15
+LINE Normal 11 21 -9 21
+LINE Normal 11 27 11 21
+LINE Normal 0 27 11 27
+LINE Normal 0 32 0 27
+LINE Normal 0 -32 0 -16
+LINE Normal 0 48 0 32
+LINE Normal -32 0 -16 0
+RECTANGLE Normal 16 32 -16 -16
+WINDOW 3 32 32 Left 1
+WINDOW 0 32 -16 Left 2
+SYMATTR Prefix X
+SYMATTR Value MEM_YAKOPCIC
+PIN 0 -32 NONE 8
+PINATTR PinName TE
+PINATTR SpiceOrder 1
+PIN 0 48 NONE 8
+PINATTR PinName BE
+PINATTR SpiceOrder 2
+PIN -32 0 NONE 8
+PINATTR PinName XSV
+PINATTR SpiceOrder 3

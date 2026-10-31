@@ -1,0 +1,22 @@
+* 1T1R read-input stimulus (LTspice source statements)
+* Source nodes IL1–IL16 are labelled in Trenery-1T1R.asc.
+* Read vector from README.md; values are in volts (maximum 50 mV).
+* Read window: 850.001 us to 870 us; all lines return to 0 V afterward.
+* This file defines the read inputs only; it does not program the memristor states.
+
+VIL1 IL1 0 PWL(0u 0 850u 0 850.001u 50m 870u 50m 870.001u 0 900u 0)
+VIL2 IL2 0 PWL(0u 0 850u 0 850.001u 25m 870u 25m 870.001u 0 900u 0)
+VIL3 IL3 0 PWL(0u 0 850u 0 850.001u 40m 870u 40m 870.001u 0 900u 0)
+VIL4 IL4 0 PWL(0u 0 850u 0 850.001u 10m 870u 10m 870.001u 0 900u 0)
+VIL5 IL5 0 PWL(0u 0 850u 0 850.001u 0 870u 0 870.001u 0 900u 0)
+VIL6 IL6 0 PWL(0u 0 850u 0 850.001u 35m 870u 35m 870.001u 0 900u 0)
+VIL7 IL7 0 PWL(0u 0 850u 0 850.001u 20m 870u 20m 870.001u 0 900u 0)
+VIL8 IL8 0 PWL(0u 0 850u 0 850.001u 45m 870u 45m 870.001u 0 900u 0)
+VIL9 IL9 0 PWL(0u 0 850u 0 850.001u 15m 870u 15m 870.001u 0 900u 0)
+VIL10 IL10 0 PWL(0u 0 850u 0 850.001u 30m 870u 30m 870.001u 0 900u 0)
+VIL11 IL11 0 PWL(0u 0 850u 0 850.001u 5m 870u 5m 870.001u 0 900u 0)
+VIL12 IL12 0 PWL(0u 0 850u 0 850.001u 50m 870u 50m 870.001u 0 900u 0)
+VIL13 IL13 0 PWL(0u 0 850u 0 850.001u 20m 870u 20m 870.001u 0 900u 0)
+VIL14 IL14 0 PWL(0u 0 850u 0 850.001u 10m 870u 10m 870.001u 0 900u 0)
+VIL15 IL15 0 PWL(0u 0 850u 0 850.001u 40m 870u 40m 870.001u 0 900u 0)
+VIL16 IL16 0 PWL(0u 0 850u 0 850.001u 25m 870u 25m 870.001u 0 900u 0)

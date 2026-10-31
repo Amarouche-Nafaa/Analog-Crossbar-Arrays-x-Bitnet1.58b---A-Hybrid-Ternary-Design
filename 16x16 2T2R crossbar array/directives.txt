@@ -1,0 +1,7 @@
+
+
+
+.meas tran IROW1P AVG I(VBL1P) FROM 855u TO 869u
+.meas tran IROW1N AVG I(VBL1N) FROM 855u TO 869u
+.meas tran IDIFF1 PARAM -IROW1P+IROW1N
+.meas tran ICM1 PARAM abs(IROW1P)+abs(IROW1N)
